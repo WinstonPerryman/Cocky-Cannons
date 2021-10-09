@@ -6,10 +6,10 @@ class Mover {
   PVector acc;
   float radius;
   float yr;
-  float p=.098;
+ 
   //[end]
 
-  Mover(float x, float y, float xSpeed, float r,float yyr) {
+  Mover(float x, float y, float xSpeed, float r,float yyr, float p) {
     location = new PVector(x,y);
      yr = yyr;
     velocity = new PVector(xSpeed,yr);
